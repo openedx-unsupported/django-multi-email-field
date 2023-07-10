@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=43.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-multi-email-field"
-version = "0.6.3-dev"
+version = "0.7.0"
 authors = [
     {name = "Florent Lebreton", email = "florent.lebreton@makina-corpus.com"},
 ]
@@ -34,7 +34,6 @@ classifiers = [
 dependencies = [
     "django>=3.2,<5",
 ]
-dynamic = ["version"]
 
 [project.optional-dependencies]
 dev = ["pyquery", "coverage", "black", "ruff"]
