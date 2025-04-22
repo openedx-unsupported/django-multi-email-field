@@ -22,18 +22,14 @@ classifiers = [
         "Intended Audience :: Developers",
         "Environment :: Web Environment",
         "Framework :: Django",
-        "Framework :: Django :: 3.2",
         "Framework :: Django :: 4.2",
         "Framework :: Django :: 5.2",
         "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
 ]
 dependencies = [
-    "django>=3.2,<6",
+    "django>=4.2,<6",
 ]
 
 [project.optional-dependencies]
