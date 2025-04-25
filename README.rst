@@ -11,8 +11,8 @@ It provides:
 COMPATIBILITY
 ==================
 
-* Python 2.7 and 3.5+
-* Django 1.8+, 2.0+ and 3.0+
+* Python 3.12
+* Django 5.2
 
 ==================
 INSTALL

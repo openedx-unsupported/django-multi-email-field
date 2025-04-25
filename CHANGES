@@ -2,6 +2,13 @@
 CHANGELOG
 =========
 
+0.7.0 (2025-04-25)
+==================
+
+- Dropped support for Python 3.8 and added support for Python 3.12.
+- Add support for Django 5.2
+
+
 0.6.2 (2020-07-23)
 ==================
 

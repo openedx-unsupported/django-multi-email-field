@@ -6,3 +6,6 @@ htmlcov
 # distribution
 dist
 *.egg-info
+
+# virtual enviroment
+venv/

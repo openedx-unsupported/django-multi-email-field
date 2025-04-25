@@ -2,13 +2,6 @@ from django.db import models
 
 from multi_email_field.forms import MultiEmailField as MultiEmailFormField
 
-try:
-    from django.utils import six
-
-    string_types = six.string_types
-except ImportError:
-    string_types = str
-
 
 class MultiEmailField(models.Field):
     description = "A multi e-mail field stored as a multi-lines text"
@@ -30,7 +23,7 @@ class MultiEmailField(models.Field):
         return value.splitlines()
 
     def get_db_prep_value(self, value, connection, prepared=False):
-        if isinstance(value, string_types):
+        if isinstance(value, str):
             return value
         elif isinstance(value, list):
             return "\n".join(value)
