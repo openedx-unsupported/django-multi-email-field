@@ -27,6 +27,7 @@ setup(
         'Framework :: Django :: 5.2',
         'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python',
+        'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
     ],
 )

@@ -11,7 +11,7 @@ It provides:
 COMPATIBILITY
 ==================
 
-* Python 3.12
+* Python 3.11, 3.12
 * Django 5.2
 
 ==================
